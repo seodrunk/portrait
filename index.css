@@ -1,14 +1,11 @@
-*,
-*:before,
-*:after {
+*, *:before, *:after {
   margin: 0;
   box-sizing: border-box;
 }
 
-body,html {
-    height: 100%;
+body, html {
+  height: 100%;
 }
-
 
 html {
   box-sizing: border-box;
@@ -20,7 +17,7 @@ html {
 }
 
 *::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
 
 body {
@@ -45,11 +42,10 @@ body {
   height: 6.5vw;
   bottom: 0;
   left: 0;
-padding-left: 20px;
-padding-bottom: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
   font-size: 0.8vw;
   z-index: 99999;
-
 }
 
 .submit {
@@ -59,11 +55,11 @@ padding-bottom: 20px;
   height: 6.5vw;
   bottom: 0;
   left: 10;
-padding-top: 70px;
-padding-bottom: 20px;
+  padding-top: 70px;
+  padding-bottom: 20px;
   font-size: 0.8vw;
   z-index: 99999;
-    text-align: center;
+  text-align: center;
 }
 
 a {
@@ -91,9 +87,9 @@ a:hover, a:active {
 }
 
 .items {
-  height:900px;
+  height: 900px;
   padding: 110px;
-  width:100%;
+  width: 100%;
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
@@ -105,6 +101,7 @@ a:hover, a:active {
   perspective: 400px;
   /* overflow:hidden; */
   /* margin-left: -40px; */
+   transform-style: preserve-3d;
 }
 
 .items.active {
@@ -113,7 +110,7 @@ a:hover, a:active {
 }
 
 .item {
-  width:300px;
+  width: 300px;
   height: calc(100% - 40px);
   display: inline-flex;
   /* position: relative; */
@@ -121,89 +118,115 @@ a:hover, a:active {
   justify-content: center;
   font-size: 28px;
   font-weight: normal;
-  color:white;
+  color: white;
   /* box-shadow: inset 0 0 0 10px rgba(0,0,0,0.15); */
   /* border: 1px solid black; */
+   transform-style: preserve-3d;
 }
 
-
-.item:nth-child(12n+1) { background-color: #fffff;
-background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey),
-linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
-background-size: 60px 60px;
-background-position: 0 0, 30px 30px;
+.item:nth-child(12n+1) {
+  background-color: #fffff;
+  background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey), linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
 }
-.item:nth-child(12n+2) { background-color: #fffff;
-background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey),
-linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
-background-size: 60px 60px;
-background-position: 0 0, 30px 30px;}
-.item:nth-child(12n+3) { background-color: #fffff;
-background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey),
-linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
-background-size: 60px 60px;
-background-position: 0 0, 30px 30px;}
-.item:nth-child(12n+4) { background-color: #fffff;
-background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey),
-linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
-background-size: 60px 60px;
-background-position: 0 0, 30px 30px;}
-.item:nth-child(12n+5) { background-color: #fffff;
-background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey),
-linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
-background-size: 60px 60px;
-background-position: 0 0, 30px 30px;}
-.item:nth-child(12n+6) { background-color: #fffff;
-background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey),
-linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
-background-size: 60px 60px;
-background-position: 0 0, 30px 30px;}
-.item:nth-child(12n+7) { background-color: #fffff;
-background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey),
-linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
-background-size: 60px 60px;
-background-position: 0 0, 30px 30px;}
-.item:nth-child(12n+8) { background-color: #fffff;
-background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey),
-linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
-background-size: 60px 60px;
-background-position: 0 0, 30px 30px;}
-.item:nth-child(12n+9) { background-color: #fffff;
-background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey),
-linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
-background-size: 60px 60px;
-background-position: 0 0, 30px 30px;}
-.item:nth-child(12n+10) { background-color: #fffff;
-background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey),
-linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
-background-size: 60px 60px;
-background-position: 0 0, 30px 30px;}
-.item:nth-child(12n+11) { background-color: #fffff;
-background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey),
-linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
-background-size: 60px 60px;
-background-position: 0 0, 30px 30px;}
-.item:nth-child(12n+12) { background-color: #fffff;
-background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey),
-linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
-background-size: 60px 60px;
-background-position: 0 0, 30px 30px;}
 
-.item:nth-child(even) { transform: scaleX(1.31) rotateY(40deg); }
-.item:nth-child(odd) { transform: scaleX(1.31) rotateY(-40deg); }
+.item:nth-child(12n+2) {
+  background-color: #fffff;
+  background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey), linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+}
+
+.item:nth-child(12n+3) {
+  background-color: #fffff;
+  background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey), linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+}
+
+.item:nth-child(12n+4) {
+  background-color: #fffff;
+  background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey), linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+}
+
+.item:nth-child(12n+5) {
+  background-color: #fffff;
+  background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey), linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+}
+
+.item:nth-child(12n+6) {
+  background-color: #fffff;
+  background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey), linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+}
+
+.item:nth-child(12n+7) {
+  background-color: #fffff;
+  background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey), linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+}
+
+.item:nth-child(12n+8) {
+  background-color: #fffff;
+  background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey), linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+}
+
+.item:nth-child(12n+9) {
+  background-color: #fffff;
+  background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey), linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+}
+
+.item:nth-child(12n+10) {
+  background-color: #fffff;
+  background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey), linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+}
+
+.item:nth-child(12n+11) {
+  background-color: #fffff;
+  background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey), linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+}
+
+.item:nth-child(12n+12) {
+  background-color: #fffff;
+  background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey), linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
+  background-size: 60px 60px;
+  background-position: 0 0, 30px 30px;
+}
+
+.item:nth-child(even) {
+  transform: scaleX(1.31) rotateY(40deg);
+}
+
+.item:nth-child(odd) {
+  transform: scaleX(1.31) rotateY(-40deg);
+}
 
 .wrap {
   width: auto;
-  border:2px solid green;
+  border: 2px solid green;
   height: 100%;
 }
 
-
 @media screen and (max-width: 815px) {
   .items {
-    height:450px;
+    height: 450px;
     padding: 55px;
-    width:100%;
+    width: 100%;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
@@ -212,39 +235,56 @@ background-position: 0 0, 30px 30px;}
     transition: all 0.2s;
     position: relative;
     font-size: 0;
-    perspective: 200px;
+    perspective: 100px;
     /* overflow:hidden; */
     /* margin-left: -40px; */
+     transform-style: preserve-3d;
+  }
+}
+
+
+.item {
+  width: 300px;
+  height: calc(100% - 40px);
+  display: inline-flex;
+  /* position: relative; */
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: normal;
+  color: white;
+  /* box-shadow: inset 0 0 0 10px rgba(0,0,0,0.15); */
+  /* border: 1px solid black; */
+   transform-style: preserve-3d;
+}
+
+@media screen and (max-width: 815px) {
+  .project-name {
+    /* background-color: yellow; */
+    position: absolute;
+    width: 20vw;
+    height: 6.5vw;
+    top: 0;
+    left: 0;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-size: 0.8vw;
+    z-index: 99999;
   }
 }
 
 @media screen and (max-width: 815px) {
-.project-name {
-  /* background-color: yellow; */
-  position: absolute;
-  width: 20vw;
-  height: 6.5vw;
-  top:0;
-  left: 0;
-padding-left: 20px;
-padding-bottom: 20px;
-  font-size: 0.8vw;
-  z-index: 99999;
-  }
-}
-
-@media screen and (max-width: 815px) {
-.submit {
-  /* background-color: yellow; */
-  position: absolute;
-  width: 26vw;
-  height: 6.5vw;
-  bottom: 0;
-  left: 10;
-padding-top: 70px;
-padding-bottom: 20px;
-  font-size: 0.8vw;
-  z-index: 99999;
+  .submit {
+    /* background-color: yellow; */
+    position: absolute;
+    width: 26vw;
+    height: 6.5vw;
+    bottom: 0;
+    left: 10;
+    padding-top: 70px;
+    padding-bottom: 20px;
+    font-size: 0.8vw;
+    z-index: 99999;
     text-align: center;
   }
 }
