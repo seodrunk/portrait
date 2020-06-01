@@ -41,22 +41,29 @@ body {
 .project-name {
   /* background-color: yellow; */
   position: absolute;
-  width: 550px;
+  width: 20vw;
+  height: 6.5vw;
   bottom: 0;
   left: 0;
 padding-left: 20px;
 padding-bottom: 20px;
-  font-size: 16px;
+  font-size: 0.8vw;
+  z-index: 99999;
+
 }
 
 .submit {
+  /* background-color: yellow; */
   position: absolute;
-  width: 550px;
+  width: 26vw;
+  height: 6.5vw;
   bottom: 0;
-  left: 550px;
-  padding-left: 20px;
-  padding-bottom: 20px;
-  font-size: 16px;
+  left: 10;
+padding-top: 70px;
+padding-bottom: 20px;
+  font-size: 0.8vw;
+  z-index: 99999;
+    text-align: center;
 }
 
 .items {
@@ -95,29 +102,6 @@ padding-bottom: 20px;
   /* border: 1px solid black; */
 }
 
-a {
-  color: black;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-a:focus {
-  text-decoration: none;
-}
-
-a:hover, a:active {
-  text-decoration: none;
-}
 
 .item:nth-child(12n+1) { background-color: #fffff;
 background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey),
