@@ -1,0 +1,158 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,html {
+    height: 100%;
+}
+
+
+html {
+  box-sizing: border-box;
+  background-size: cover;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: arial, sans-serif;
+  /* font-size: 10px; */
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'NeueHaasGrotesk';
+  src: url('fonts/NHaasGroteskDSW02-55Rg.ttf');
+}
+
+.project-name {
+  /* background-color: yellow; */
+  position: absolute;
+  width: 500px;
+  bottom: 0;
+  left: 0;
+padding-left: 20px;
+padding-bottom: 20px;
+  font-size: 16px;
+}
+
+.items {
+  height:900px;
+  padding: 110px;
+  width:100%;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  user-select: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  position: relative;
+  font-size: 0;
+  perspective: 400px;
+  /* overflow:hidden; */
+  /* margin-left: -40px; */
+}
+
+.items.active {
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+}
+
+.item {
+  width:300px;
+  height: calc(100% - 40px);
+  display: inline-flex;
+  /* position: relative; */
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: normal;
+  color:white;
+  /* box-shadow: inset 0 0 0 10px rgba(0,0,0,0.15); */
+  /* border: 1px solid black; */
+}
+
+
+.item:nth-child(12n+1) { background-color: #fffff;
+background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey),
+linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
+background-size: 60px 60px;
+background-position: 0 0, 30px 30px;
+}
+.item:nth-child(12n+2) { background-color: #fffff;
+background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey),
+linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
+background-size: 60px 60px;
+background-position: 0 0, 30px 30px;}
+.item:nth-child(12n+3) { background-color: #fffff;
+background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey),
+linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
+background-size: 60px 60px;
+background-position: 0 0, 30px 30px;}
+.item:nth-child(12n+4) { background-color: #fffff;
+background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey),
+linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
+background-size: 60px 60px;
+background-position: 0 0, 30px 30px;}
+.item:nth-child(12n+5) { background-color: #fffff;
+background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey),
+linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
+background-size: 60px 60px;
+background-position: 0 0, 30px 30px;}
+.item:nth-child(12n+6) { background-color: #fffff;
+background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey),
+linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
+background-size: 60px 60px;
+background-position: 0 0, 30px 30px;}
+.item:nth-child(12n+7) { background-color: #fffff;
+background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey),
+linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
+background-size: 60px 60px;
+background-position: 0 0, 30px 30px;}
+.item:nth-child(12n+8) { background-color: #fffff;
+background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey),
+linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
+background-size: 60px 60px;
+background-position: 0 0, 30px 30px;}
+.item:nth-child(12n+9) { background-color: #fffff;
+background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey),
+linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
+background-size: 60px 60px;
+background-position: 0 0, 30px 30px;}
+.item:nth-child(12n+10) { background-color: #fffff;
+background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey),
+linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
+background-size: 60px 60px;
+background-position: 0 0, 30px 30px;}
+.item:nth-child(12n+11) { background-color: #fffff;
+background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey),
+linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
+background-size: 60px 60px;
+background-position: 0 0, 30px 30px;}
+.item:nth-child(12n+12) { background-color: #fffff;
+background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey),
+linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
+background-size: 60px 60px;
+background-position: 0 0, 30px 30px;}
+
+.item:nth-child(even) { transform: scaleX(1.31) rotateY(40deg); }
+.item:nth-child(odd) { transform: scaleX(1.31) rotateY(-40deg); }
+
+.wrap {
+  width: auto;
+  border:2px solid green;
+  height: 100%;
+}
