@@ -85,6 +85,11 @@ padding-bottom: 20px;
   /* border: 1px solid black; */
 }
 
+a:visited { text-decoration: none; color:red; }
+a:hover { text-decoration: none; color:blue; }
+a:focus { text-decoration: none; color:yellow; }
+a:hover, a:active { text-decoration: none; color:black }
+
 
 .item:nth-child(12n+1) { background-color: #fffff;
 background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey),
