@@ -49,6 +49,16 @@ padding-bottom: 20px;
   font-size: 16px;
 }
 
+.submit {
+  position: absolute;
+  width: 550px;
+  bottom: 0;
+  left: 550px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-size: 16px;
+}
+
 .items {
   height:900px;
   padding: 110px;
