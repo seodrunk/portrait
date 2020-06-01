@@ -66,6 +66,30 @@ padding-bottom: 20px;
     text-align: center;
 }
 
+a {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: none;
+}
+
 .items {
   height:900px;
   padding: 110px;
