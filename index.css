@@ -102,6 +102,7 @@ a:hover, a:active {
   /* overflow:hidden; */
   /* margin-left: -40px; */
    transform-style: preserve-3d;
+     scroll-snap-type: x mandatory;
 }
 
 .items.active {
@@ -122,6 +123,8 @@ a:hover, a:active {
   /* box-shadow: inset 0 0 0 10px rgba(0,0,0,0.15); */
   /* border: 1px solid black; */
    transform-style: preserve-3d;
+   scroll-snap-align: start;
+    scroll-margin: 55px;
 }
 
 .item:nth-child(12n+1) {
