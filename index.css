@@ -62,30 +62,6 @@ body {
   text-align: center;
 }
 
-a {
-  color: black;
-}
-
-a {
-  text-decoration: none;
-}
-
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-a:focus {
-  text-decoration: none;
-}
-
-a:hover, a:active {
-  text-decoration: none;
-}
-
 .items {
   height: 900px;
   padding: 110px;
@@ -219,11 +195,30 @@ a:hover, a:active {
   transform: scaleX(1.31) rotateY(-40deg);
 }
 
-.wrap {
-  width: auto;
-  border: 2px solid green;
-  height: 100%;
+a {
+  color: black;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+a:hover, a:active {
+  text-decoration: none;
+}
+
 
 @media screen and (max-width: 815px) {
   .items {
