@@ -40,26 +40,26 @@ body {
 .project-name {
   /* background-color: yellow; */
   position: absolute;
-  width: 20vw;
-  height: 6.5vw;
+  width: 430px;
+  height: auto;
   bottom: 0;
   left: 0;
   padding-left: 20px;
   padding-bottom: 20px;
-  font-size: 0.8vw;
+  font-size: 15px;
   z-index: 99999;
 }
 
 .submit {
   /* background-color: yellow; */
   position: absolute;
-  width: 26vw;
-  height: 6.5vw;
+  width: 500px;
+  height: auto;
   bottom: 0;
   left: 10;
   padding-top: 70px;
   padding-bottom: 20px;
-  font-size: 0.8vw;
+  font-size: 15px;
   z-index: 99999;
   text-align: center;
 }
@@ -224,7 +224,7 @@ a:hover, a:active {
 
 @media screen and (max-width: 815px) {
   .items {
-    height: 450px;
+    height: 700px;
     padding: 55px;
     width: 100%;
     overflow-x: scroll;
@@ -263,13 +263,13 @@ a:hover, a:active {
   .project-name {
     /* background-color: yellow; */
     position: absolute;
-    width: 300px;
-    height: 100px;
-    top: 0;
+    width: 430px;
+    height: auto;
+    bottom: 0;
     left: 0;
     padding-left: 20px;
     padding-bottom: 20px;
-    font-size: 11px;
+    font-size: 15px;
     z-index: 99999;
   }
 }
@@ -278,13 +278,11 @@ a:hover, a:active {
   .submit {
     /* background-color: yellow; */
     position: absolute;
-    width: 300px;
-    height: 100px;
-    bottom: 0;
-    left: 10;
-    padding-top: 70px;
-    padding-bottom: 20px;
-    font-size: 0.8vw;
+    width: 500px;
+    height: auto;
+    top: 0;
+    left: 0;
+    font-size: 15px;
     z-index: 99999;
     text-align: center;
   }
