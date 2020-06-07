@@ -236,7 +236,7 @@ a:hover, a:active {
 }
 
 
-@media screen and (min-width: 815px) {
+@media screen and (max-width: 815px) {
   .items {
     height: 1200px;
     padding: 150px;
@@ -256,7 +256,7 @@ a:hover, a:active {
   }
 }
 
-@media screen and (min-width: 815px) {
+@media screen and (max-width: 815px) {
 .item {
   width: 300px;
   height: calc(100% - 40px);
@@ -273,7 +273,7 @@ a:hover, a:active {
 }
 }
 
-@media screen and (min-width: 815px) {
+@media screen and (max-width: 815px) {
   .project-name {
     /* background-color: yellow; */
     position: absolute;
@@ -288,7 +288,7 @@ a:hover, a:active {
   }
 }
 
-@media screen and (min-width: 815px) {
+@media screen and (max-width: 815px) {
   .submit {
     /* background-color: yellow; */
     position: absolute;
@@ -303,7 +303,7 @@ a:hover, a:active {
   }
 }
 
-@media screen and (min-width: 815px) {
+@media screen and (max-width: 815px) {
   .support {
     /* background-color: yellow; */
     position: absolute;
