@@ -223,3 +223,24 @@ a:focus {
 a:hover, a:active {
   text-decoration: none;
 }
+
+@media screen and (max-width: 815px) {
+  .items {
+    height: 650px;
+    padding: 80px;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.2s;
+    position: relative;
+    font-size: 0;
+    perspective: 400px;
+    /* overflow:hidden; */
+    /* margin-left: -40px; */
+    transform-style: preserve-3d;
+    scroll-snap-type: x mandatory;
+  }
+}
