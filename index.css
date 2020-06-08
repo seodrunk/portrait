@@ -92,6 +92,8 @@ body {
 .item {
   width: 300px;
   height: calc(100% - 40px);
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
   display: inline-flex;
   /* position: relative; */
   align-items: center;
