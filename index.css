@@ -104,6 +104,7 @@ body {
   transform-style: preserve-3d;
   scroll-snap-align: start;
   scroll-margin: 55px;
+  vertical-align: top;
 }
 
 .item:nth-child(12n+1) {
