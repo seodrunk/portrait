@@ -1,22 +1,20 @@
 *, *:before, *:after {
   margin: 0;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-body, html {
+/* body, html {
   height: 100%;
-}
+} */
 
-html {
+/* html {
   box-sizing: border-box;
   background-size: cover;
-}
+} */
 
-*, *:before, *:after {
+/* *, *:before, *:after {
   box-sizing: inherit;
-}
+} */
 
 *::-webkit-scrollbar {
   display: none;
@@ -24,13 +22,13 @@ html {
 
 body {
   min-height: 100vh;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   font-family: arial, sans-serif;
   /* font-size: 10px; */
   margin: 0;
-  /* background-color: green; */
+  background-color: green;
 }
 
 @font-face {
