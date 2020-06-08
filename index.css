@@ -3,33 +3,23 @@
   box-sizing: border-box;
 }
 
-body, html {
-  height: 100%;
-  -webkit-text-size-adjust: none;
-}
-
-/* html {
+html {
   box-sizing: border-box;
-  background-size: cover;
-} */
-
-/* *, *:before, *:after {
-  box-sizing: inherit;
-} */
+}
 
 *::-webkit-scrollbar {
   display: none;
 }
 
 body {
-  min-height: 100vh;
-  /* display: flex; */
+  height: 100vh;
+  display: flex;
   justify-content: center;
   align-items: center;
   font-family: arial, sans-serif;
-  /* font-size: 10px; */
+  font-size: 10px;
   margin: 0;
-  background-color: green;
+  background-color: grey;
 }
 
 @font-face {
