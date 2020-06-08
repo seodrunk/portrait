@@ -34,8 +34,7 @@ body {
   height: auto;
   bottom: 0;
   left: 0;
-  padding-left: 20px;
-  padding-bottom: 20px;
+  padding-left: 0 0 20px 20px;
   font-size: 15px;
   z-index: 99999;
 }
@@ -46,7 +45,7 @@ body {
   width: 500px;
   height: auto;
   bottom: 0;
-  padding-bottom: 20px;
+  padding: 0 0 20px 0;
   font-size: 15px;
   z-index: 99999;
   text-align: center;
@@ -60,8 +59,7 @@ body {
   bottom: 0;
   right: 0;
   /* padding-top: 70px; */
-  padding-bottom: 20px;
-  padding-right: 20px;
+  padding-bottom: 0 20px 20px 0;
   font-size: 15px;
   z-index: 99999;
   text-align: center;
@@ -82,8 +80,8 @@ body {
   perspective: 400px;
   /* overflow:hidden; */
   /* margin-left: -40px; */
-   transform-style: preserve-3d;
-     scroll-snap-type: x mandatory;
+  transform-style: preserve-3d;
+  scroll-snap-type: x mandatory;
 }
 
 .items.active {
@@ -103,9 +101,9 @@ body {
   color: white;
   /* box-shadow: inset 0 0 0 10px rgba(0,0,0,0.15); */
   /* border: 1px solid black; */
-   transform-style: preserve-3d;
-   scroll-snap-align: start;
-    scroll-margin: 55px;
+  transform-style: preserve-3d;
+  scroll-snap-align: start;
+  scroll-margin: 55px;
 }
 
 .item:nth-child(12n+1) {
