@@ -271,7 +271,7 @@ a:hover, a:active {
 
 @media screen and (max-width: 815px) {
 .project-name {
-  background-color: yellow;
+  /* background-color: yellow; */
   position: absolute;
   width: 200px;
   height: auto;
