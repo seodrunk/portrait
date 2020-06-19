@@ -30,6 +30,7 @@ body {
 .title {
   position: absolute;
   font-size: 26px;
+  color: black;
 }
 
 .project-name {
