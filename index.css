@@ -254,7 +254,7 @@ a:hover, a:active {
 
 @media screen and (max-width: 815px) {
 .item {
-  width: 200px;
+  width: 150px;
   height: calc(100% - 40px);
   display: inline-flex;
   /* position: relative; */
