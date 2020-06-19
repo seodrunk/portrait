@@ -234,7 +234,7 @@ a:hover, a:active {
 @media screen and (max-width: 815px) {
   .items {
     height: 600px;
-    padding: 45px;
+    padding: 80px;
     width: 100%;
     overflow-x: scroll;
     overflow-y: hidden;
