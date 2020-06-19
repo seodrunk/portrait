@@ -233,8 +233,8 @@ a:hover, a:active {
 
 @media screen and (max-width: 815px) {
   .items {
-    height: 1200px;
-    padding: 150px;
+    height: 900px;
+    padding: 110px;
     width: 100%;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -244,10 +244,11 @@ a:hover, a:active {
     transition: all 0.2s;
     position: relative;
     font-size: 0;
-    /* perspective: 100px; */
+    perspective: 400px;
     /* overflow:hidden; */
     /* margin-left: -40px; */
-     transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    scroll-snap-type: x mandatory;
   }
 }
 
