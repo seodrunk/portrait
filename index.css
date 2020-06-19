@@ -245,3 +245,33 @@ a:hover, a:active {
     scroll-snap-type: x mandatory;
   }
 }
+
+@media screen and (max-width: 815px) {
+.project-name {
+  background-color: yellow;
+  position: absolute;
+  width: 430px;
+  height: auto;
+  bottom: 0;
+  left: 0;
+  padding: 0 0 20px 20px;
+  font-size: 10px;
+  z-index: 99999;
+}
+}
+
+@media screen and (max-width: 815px) {
+.support {
+  background-color: green;
+  position: absolute;
+  width: 500px;
+  height: auto;
+  bottom: 0;
+  right: 0;
+  /* padding-top: 70px; */
+  padding: 0 20px 20px 0;
+  font-size: 10px;
+  z-index: 99999;
+  text-align: right;
+}
+}
