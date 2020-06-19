@@ -115,7 +115,7 @@ body {
   vertical-align: top;
 }
 
-.item:nth-child(12n+1) {
+/* .item:nth-child(12n+1) {
   background-color: #fffff;
   background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey), linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
   background-size: 60px 60px;
@@ -197,7 +197,7 @@ body {
   background-image: linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey), linear-gradient(45deg, lightgrey 25%, transparent 25%, transparent 75%, lightgrey 75%, lightgrey);
   background-size: 60px 60px;
   background-position: 0 0, 30px 30px;
-}
+} */
 
 .item:nth-child(even) {
   transform: scaleX(1.31) rotateY(40deg);
