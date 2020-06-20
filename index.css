@@ -22,10 +22,10 @@ body {
   /* background-color: blue; */
 }
 
-@font-face {
+/* @font-face {
   font-family: 'NeueHaasGrotesk';
   src: url('fonts/NHaasGroteskDSW02-55Rg.ttf');
-}
+} */
 
 .title {
   position: absolute;
@@ -278,7 +278,7 @@ a:hover, a:active {
 .project-name {
   /* background-color: yellow; */
   position: absolute;
-  width: 300px;
+  width: 280px;
   height: auto;
   bottom: 0;
   left: 0;
