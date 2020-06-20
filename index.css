@@ -231,43 +231,6 @@ a:hover, a:active {
   text-decoration: none;
 }
 
-@media screen and (max-width: 815px) {
-  .items {
-    height: 600px;
-    padding: 80px;
-    width: 100%;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-    user-select: none;
-    cursor: pointer;
-    transition: all 0.2s;
-    position: relative;
-    font-size: 0;
-    perspective: 400px;
-    /* overflow:hidden; */
-    /* margin-left: -40px; */
-    transform-style: preserve-3d;
-    scroll-snap-type: x mandatory;
-  }
-}
-
-@media screen and (max-width: 815px) {
-.item {
-  width: 150px;
-  height: calc(100% - 40px);
-  display: inline-flex;
-  /* position: relative; */
-  align-items: center;
-  justify-content: center;
-  font-size: 28px;
-  font-weight: normal;
-  color: white;
-  /* box-shadow: inset 0 0 0 10px rgba(0,0,0,0.15); */
-  /* border: 1px solid black; */
-   transform-style: preserve-3d;
-}
-}
 
 @media screen and (max-width: 815px) {
 .project-name {
@@ -285,7 +248,7 @@ a:hover, a:active {
 
 @media screen and (max-width: 815px) {
 .support {
-  /* background-color: green; */
+  background-color: green;
   position: absolute;
   width: 200px;
   height: auto;
