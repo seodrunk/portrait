@@ -234,7 +234,7 @@ a:hover, a:active {
 @media screen and (max-width: 815px) {
   .items {
     height: 750px;
-    padding: 110px;
+    padding: 90px;
     width: 100%;
     overflow-x: scroll;
     overflow-y: hidden;
@@ -246,7 +246,6 @@ a:hover, a:active {
     font-size: 0;
     perspective: 400px;
     /* overflow:hidden; */
-top:0;
     transform-style: preserve-3d;
     scroll-snap-type: x mandatory;
   }
@@ -290,7 +289,7 @@ top:0;
 
 @media screen and (max-width: 815px) {
 .support {
-  background-color: green;
+  /* background-color: green; */
   position: absolute;
   width: 200px;
   height: auto;
