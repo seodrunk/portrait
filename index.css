@@ -246,7 +246,7 @@ a:hover, a:active {
     font-size: 0;
     perspective: 400px;
     /* overflow:hidden; */
-    /* margin-left: -40px; */
+top:0;
     transform-style: preserve-3d;
     scroll-snap-type: x mandatory;
   }
@@ -269,7 +269,7 @@ a:hover, a:active {
     /* border: 1px solid black; */
     transform-style: preserve-3d;
     scroll-snap-align: start;
-    scroll-margin: 55px;
+    scroll-margin: 100px;
     vertical-align: top;
   }
 }
@@ -290,7 +290,7 @@ a:hover, a:active {
 
 @media screen and (max-width: 815px) {
 .support {
-  /* background-color: green; */
+  background-color: green;
   position: absolute;
   width: 200px;
   height: auto;
