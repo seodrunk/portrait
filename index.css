@@ -277,7 +277,7 @@ a:hover, a:active {
 .project-name {
   /* background-color: yellow; */
   position: absolute;
-  width: 280px;
+  width: 260px;
   height: auto;
   bottom: 0;
   left: 0;
@@ -289,7 +289,7 @@ a:hover, a:active {
 
 @media screen and (max-width: 815px) {
 .support {
-  /* background-color: green; */
+  background-color: green;
   position: absolute;
   width: 200px;
   height: auto;
