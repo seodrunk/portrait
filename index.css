@@ -279,7 +279,7 @@ a:hover, a:active {
   position: absolute;
   width: 250px;
   height: auto;
-  bottom: 0;
+  bottom: -20;
   left: 0;
   padding: 0 0 20px 20px;
   font-size: 12px;
@@ -289,11 +289,11 @@ a:hover, a:active {
 
 @media screen and (max-width: 815px) {
 .support {
-  /* background-color: green; */
+  background-color: green;
   position: absolute;
   width: 200px;
   height: auto;
-  bottom: 0;
+  bottom: -20;
   right: 0;
   /* padding-top: 70px; */
   padding: 0 20px 20px 0;
