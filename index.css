@@ -16,14 +16,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: arial, sans-serif;
+  font-family: 'Arial Narrow'
   font-size: 10px;
   margin: 0;
   /* background-color: blue; */
 }
 
 @font-face {
-  font-family: 'Arial';
+  font-family: 'Arial Narrow';
   src: url('fonts/Arial Narrow.ttf');
 }
 
