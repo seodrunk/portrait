@@ -19,7 +19,7 @@ body {
   font-family: 'Arial Narrow'
   font-size: 10px;
   margin: 0;
-  /* background-color: blue; */
+  background-color: blue;
 }
 
 @font-face {
